@@ -8,11 +8,11 @@ Create a file named `.env.local` in the current directory and copy the contents 
 
 ```
 # APP ID
-NEXT_PUBLIC_APP_ID=
+NEXT_PUBLIC_APP_ID=c0224f4a-3663-4c3e-9142-c29ec0592a3f
 # APP API key
-NEXT_PUBLIC_APP_KEY=
+NEXT_PUBLIC_APP_KEY=app-AHwbNI3qKrtOrjk3l1enI2PK
 # APP API URL
-NEXT_PUBLIC_API_URL=
+NEXT_PUBLIC_API_URL=http://dify.teledocjourney.com/v1
 # APP type
 # true for workflow apps
 NEXT_PUBLIC_APP_TYPE_WORKFLOW=
@@ -23,9 +23,9 @@ Config more in `config/index.ts` file:
 ```js
 export const APP_INFO: AppInfo = {
   title: 'Chat APP',
-  description: '',
-  copyright: '',
-  privacy_policy: '',
+  description: 'deixe a IA transcrever o prontuario para voce',
+  copyright: 'ola',
+  privacy_policy: 'www.teledocmedical.ai/privacy-polity',
   default_language: 'zh-Hans'
 }
 
